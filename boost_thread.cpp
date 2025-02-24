@@ -20,7 +20,7 @@ void thread()
 int main(int argc, char** argv) {
 	vector<int> test = {0,5,10,3,};
 	BOOST_FOREACH(int &val, test) {
-cout<<val<<endl;
+		cout<<val<<endl;
 	}
 	boost::thread t{thread};
   	t.join();

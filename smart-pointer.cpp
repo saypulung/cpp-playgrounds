@@ -42,7 +42,7 @@ void tambahAge(Person *p){
 }
 
 int main() {
-	cout<<"meong meong meong"<<endl;
+	cout<<"Using smart pointer"<<endl;
 	PersonPtr p(new Person); // 5 use Person class with defined pointer
 	cout<<p->getAge()<<endl; // 6 expected result: 0. The object p just declared without modification
 	
